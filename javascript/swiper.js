@@ -1,5 +1,6 @@
 var swiper = new Swiper(".mySwiper1", {
-    centeredSlides: true,
+    loop: true,
+
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -11,12 +12,12 @@ var swiper = new Swiper(".mySwiper1", {
     navigation: {
         nextEl: ".swiper-button-next1",
         prevEl: ".swiper-button-prev1",
-        
     },
 });
 
 var swiper1 = new Swiper(".mySwiper", {
     slidesPerView: 3,
+
     grid: {
         rows: 2,
     },
@@ -28,12 +29,16 @@ var swiper1 = new Swiper(".mySwiper", {
 });
 
 var swiper2 = new Swiper(".mySwiper2", {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });
 
 var swiper3 = new Swiper(".mySwiper3", {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
     navigation: {
         nextEl: ".swiper-button-next",

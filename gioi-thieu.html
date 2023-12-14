@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./assets/images/logo.png' rel='shortcut icon' type='image/png' />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    <title>Tin tức</title>
+</head>
+
+<body>
+    <div class="wrapper ">
+        <button class="scroll "><i class="fas fa-arrow-up"></i></button>
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="./index.html" class="header__logo-link">
+                        <img src="./assets/images/logo.png" alt="" class="header__logo-img">
+                    </a>
+                    <span class="header__logo-text"> </span>
+                </div>
+                <div class="header__contact-container">
+                    <div class="header__contact">
+                        <div class="header__contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="header__contact-content">
+                            <span class="header__contact-title">open:</span>
+                            <span href="#" class="header__contact-in4">8 AM - 10 PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__contact">
+                    <div class="header__contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="header__contact-content">
+                        <span class="header__contact-title">email:</span>
+                        <a href="#" class="header__contact-in4">hieufood@gmail.com</a>
+                    </div>
+                </div>
+                <div class="header__contact">
+                    <div class="header__contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="header__contact-content">
+                        <span class="header__contact-title">hotline:</span>
+                        <a href="#" class="header__contact-in4">1900 0099</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__item-link ">trang chủ</a></li>
+                    <li class="nav__item"><a href="/gioi-thieu.html" class="nav__item-link active">giới thiệu</a></li>
+                    <li class="nav__item"><a href="/san-pham.html" class="nav__item-link">sản phẩm</a></li>
+                    <li class="nav__item"><a href="/tin-tuc.html" class="nav__item-link ">tin tức</a></li>
+                    <li class="nav__item"><a href="/login.html" class="nav__item-link">tài khoản</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <div class="nav__search">
+                        <i class="fas fa-search nav__search-icon"></i>
+                        <form action="" class="nav__search-form">
+                            <input class="nav__search-input" type="text" placeholder="Gõ tìm kiếm...">
+                        </form>
+                    </div>
+                    <div class="nav__cart">
+                        <a href="#" class="nav__cart-link">
+                            <i class="fas fa-shopping-basket nav__cart-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="theme-background">
+            <div class="overlay"></div>
+            <div class="theme-title">Giới Thiệu</div>
+        </div>
+
+        <section class="body">
+            <section class="frag">
+                <div class="container">
+                    <ul class="frag__container">
+                        <li class="home">
+                            <a href="/index.html" class="frag__link"> Trang chủ</a>
+                            <span class="gach">/</span>
+                        </li>
+                        <li>
+                            <span>Giới Thiệu</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="container">
+                <div class="page">
+                    <p>
+                        Chào mừng quý khách đến với HieuFood - nơi hội tụ tinh hoa ẩm thực và niềm đam mê sáng tạo! Đây
+                        không chỉ là một nhà
+                        hàng, mà là tinh thần của năm tâm huyết, năm đam mê ẩm thực đã kết nối chúng tôi thành một đội
+                        ngũ đặc biệt. HieuFood ra
+                        đời với sứ mệnh mang đến cho khách hàng những trải nghiệm ẩm thực độc đáo, từng hương vị được
+                        chế biến cầu kỳ và tận
+                        hưởng trong không gian tươi mới, ấm cúng.</p>
+
+                    <p> Được thành lập bởi năm đầu bế tắc dịch 2020, đội ngũ của chúng tôi không chỉ mang lại sự đổi mới
+                        trong thế giới ẩm thực
+                        mà còn là bức tranh kết hợp của năm cá nhân đặc sắc. HieuFood không chỉ là nơi để thưởng thức đồ
+                        ăn ngon mà còn là nơi
+                        để khám phá những câu chuyện, niềm đam mê và sự sáng tạo không ngừng.</p>
+
+                    <p>Hãy cùng chúng tôi khám phá từng góc nhỏ của HieuFood, qua những bữa tiệc thịnh soạn, từng món
+                        ăn được chế biến tận tâm
+                        và những câu chuyện tuyệt vời đằng sau mỗi dịch vụ. HieuFood không chỉ là nơi dành cho thực
+                        khách, mà còn là nơi để mọi
+                        người cảm nhận, tận hưởng và kết nối qua ẩm thực đặc sắc.
+                    </p>
+                    <p> Hãy để chúng tôi giới thiệu đến quý khách hàng những bí mật của HieuFood thông qua những gương
+                        mặt đặc biệt, mỗi thành
+                        viên là một chìa khóa mở cửa ra thế giới của chúng tôi. Hãy cùng chờ đợi những câu chuyện, hương
+                        vị và trải nghiệm độc
+                        đáo tại HieuFood!
+                    </p>
+                    <h3>Dưới Đây Là Những Thành Viên Của HieuFood</h3>
+                    <div class="page__member">
+                        <div class="page__member-item sign-right" data-aos="fade-right">
+                            <div class="member-img">
+                                <img src="assets/images/avt-1.png" alt="">
+                            </div>
+                            <div class="member-info">
+                                <div class="member-name">
+                                    <div class="contact-title">Tên: </div>
+                                    <div class="contact-content">Phan Văn Hiếu</div>
+                                </div>
+                                <div class="member-id">
+                                    <div class="contact-title">Mã Sinh Viên: </div>
+                                    <div class="contact-content">N21DCPT024</div>
+                                </div>
+                                <div class="contact__icon">
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-contact">
+                                <div class="member-contact-col">
+                                    <div class="member-email">
+                                        <div class="contact-title">Email:</div>
+                                        <div class="contact-content">Phanvanhieu1603@gmail.com</div>
+                                    </div>
+                                    <div class="member-birth">
+                                        <div class="contact-title">Ngày sinh:</div>
+                                        <div class="contact-content">16/03/2003</div>
+                                    </div>
+                                </div>
+                                <div class="member-contact-col">
+                                    <div class="member-phone">
+                                        <div class="contact-title">Số điện thoại:</div>
+                                        <div class="contact-content">0987654321</div>
+                                    </div>
+                                    <div class="member-addr">
+                                        <div class="contact-title">Địa chỉ:</div>
+                                        <div class="contact-content">97 Man Thiện, Quận 9, Tp HCM</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="page__member-item sign-left" data-aos="fade-left">
+                            <div class="member-img">
+                                <img src="assets/images/avt-1.png" alt="">
+                            </div>
+                            <div class="member-info">
+                                <div class="member-name">
+                                    <div class="contact-title">Tên: </div>
+                                    <div class="contact-content">Kinh Quang Viên</div>
+                                </div>
+                                <div class="member-id">
+                                    <div class="contact-title">Mã Sinh Viên: </div>
+                                    <div class="contact-content">N21DCPT024</div>
+                                </div>
+                                <div class="contact__icon">
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-contact">
+                                <div class="member-contact-col">
+                                    <div class="member-email">
+                                        <div class="contact-title">Email:</div>
+                                        <div class="contact-content">Phanvanhieu1603@gmail.com</div>
+                                    </div>
+                                    <div class="member-birth">
+                                        <div class="contact-title">Ngày sinh:</div>
+                                        <div class="contact-content">16/03/2003</div>
+                                    </div>
+                                </div>
+                                <div class="member-contact-col">
+                                    <div class="member-phone">
+                                        <div class="contact-title">Số điện thoại:</div>
+                                        <div class="contact-content">0987654321</div>
+                                    </div>
+                                    <div class="member-addr">
+                                        <div class="contact-title">Địa chỉ:</div>
+                                        <div class="contact-content">97 Man Thiện, Quận 9, Tp HCM</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__member-item sign-right" data-aos="fade-right">
+                            <div class="member-img">
+                                <img src="assets/images/avt-1.png" alt="">
+                            </div>
+                            <div class="member-info">
+                                <div class="member-name">
+                                    <div class="contact-title">Tên: </div>
+                                    <div class="contact-content">Lư Diệu Đông</div>
+                                </div>
+                                <div class="member-id">
+                                    <div class="contact-title">Mã Sinh Viên: </div>
+                                    <div class="contact-content">N21DCPT024</div>
+                                </div>
+                                <div class="contact__icon">
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-contact">
+                                <div class="member-contact-col">
+                                    <div class="member-email">
+                                        <div class="contact-title">Email:</div>
+                                        <div class="contact-content">Phanvanhieu1603@gmail.com</div>
+                                    </div>
+                                    <div class="member-birth">
+                                        <div class="contact-title">Ngày sinh:</div>
+                                        <div class="contact-content">16/03/2003</div>
+                                    </div>
+                                </div>
+                                <div class="member-contact-col">
+                                    <div class="member-phone">
+                                        <div class="contact-title">Số điện thoại:</div>
+                                        <div class="contact-content">0987654321</div>
+                                    </div>
+                                    <div class="member-addr">
+                                        <div class="contact-title">Địa chỉ:</div>
+                                        <div class="contact-content">97 Man Thiện, Quận 9, Tp HCM</div>
+                                    </div>
+                                </div>
+                        
+                        
+                            </div>
+                        
+                        </div>
+                        <div class="page__member-item sign-left" data-aos="fade-left">
+                            <div class="member-img">
+                                <img src="assets/images/avt-1.png" alt="">
+                            </div>
+                            <div class="member-info">
+                                <div class="member-name">
+                                    <div class="contact-title">Tên: </div>
+                                    <div class="contact-content">Nguyễn Duy Hải</div>
+                                </div>
+                                <div class="member-id">
+                                    <div class="contact-title">Mã Sinh Viên: </div>
+                                    <div class="contact-content">N21DCPT024</div>
+                                </div>
+                                <div class="contact__icon">
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-contact">
+                                <div class="member-contact-col">
+                                    <div class="member-email">
+                                        <div class="contact-title">Email:</div>
+                                        <div class="contact-content">Phanvanhieu1603@gmail.com</div>
+                                    </div>
+                                    <div class="member-birth">
+                                        <div class="contact-title">Ngày sinh:</div>
+                                        <div class="contact-content">16/03/2003</div>
+                                    </div>
+                                </div>
+                                <div class="member-contact-col">
+                                    <div class="member-phone">
+                                        <div class="contact-title">Số điện thoại:</div>
+                                        <div class="contact-content">0987654321</div>
+                                    </div>
+                                    <div class="member-addr">
+                                        <div class="contact-title">Địa chỉ:</div>
+                                        <div class="contact-content">97 Man Thiện, Quận 9, Tp HCM</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__member-item sign-right" data-aos="fade-right">
+                            <div class="member-img">
+                                <img src="assets/images/avt-1.png" alt="">
+                            </div>
+                            <div class="member-info">
+                                <div class="member-name">
+                                    <div class="contact-title">Tên: </div>
+                                    <div class="contact-content">Vũ Văn Sỹ</div>
+                                </div>
+                                <div class="member-id">
+                                    <div class="contact-title">Mã Sinh Viên: </div>
+                                    <div class="contact-content">N21DCPT024</div>
+                                </div>
+                                <div class="contact__icon">
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <div class="contact__icon-item">
+                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-contact">
+                                <div class="member-contact-col">
+                                    <div class="member-email">
+                                        <div class="contact-title">Email:</div>
+                                        <div class="contact-content">Phanvanhieu1603@gmail.com</div>
+                                    </div>
+                                    <div class="member-birth">
+                                        <div class="contact-title">Ngày sinh:</div>
+                                        <div class="contact-content">16/03/2003</div>
+                                    </div>
+                                </div>
+                                <div class="member-contact-col">
+                                    <div class="member-phone">
+                                        <div class="contact-title">Số điện thoại:</div>
+                                        <div class="contact-content">0987654321</div>
+                                    </div>
+                                    <div class="member-addr">
+                                        <div class="contact-title">Địa chỉ:</div>
+                                        <div class="contact-content">97 Man Thiện, Quận 9, Tp HCM</div>
+                                    </div>
+                                </div>
+                        
+                        
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="about-us">
+                    <div class="footer__wrapper">
+                        <div class="footer__wrapper-tiltle">về chúng tôi</div>
+                        <ul class="footer__wrapper-list">
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div class="footer__wrapper-tiltle">điều khoản</div>
+                        <ul class="footer__wrapper-list">
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div class="footer__wrapper-tiltle">hướng dẫn</div>
+                        <ul class="footer__wrapper-list">
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div class="footer__wrapper-tiltle">chính sách</div>
+                        <ul class="footer__wrapper-list">
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                            </li>
+                            <li class="footer__wrapper-item">
+                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rules">
+                    <div class="footer__login">
+                        <div class="footer__wrapper-tiltle">đăng kí nhận tin</div>
+                        <div class="footer__login-content"> Đăng ký nhận thông tin ưu đãi cùng với khuyến mãi
+                            khủng từ Hieu Food</div>
+                        <div class="footer__login-search">
+                            <form action="" class="footer__login-form">
+                                <input type="email" class="footer__login-input" placeholder="Email của bạn" required>
+                                <button type="submit" class="footer__login-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-item">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="footer__social-item">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="footer__social-item">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a href="#" class="footer__social-item">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="mid-footer">
+                <div class="container">
+                    <h1 class="mid-footer__name">cửa hàng đồ ăn nhanh Hieu Food</h1>
+                    <div class="mid-footer__address">
+                        <span>Hieu Food:</span>
+                        <span>Số 97, Man Thiện, Quận 9, Hồ Chí Minh</span>
+                    </div>
+                    <div class="mid-footer__contact">
+                        <span>Hotline: <a href="#"> 1900 0099</a></span>
+                        <span>Email: <a href="#">hieufood@gmail.com</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <i class="far fa-copyright"></i>
+                <p>Copyright by <a href="https://www.facebook.com/100055102217923/" target="_blank">Hieu Phan</a></p>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./javascript/scroll-top.js"></script>
+    <!-- Typed -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="javascript/typed.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
