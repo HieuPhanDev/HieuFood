@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='../assets/images/logo - Copy.png' rel='shortcut icon' type='image/png' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href='./assets/images/logo.png' rel='shortcut icon' type='image/png' />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap"
         rel="stylesheet">
-    <!-- logo-title -->
-    <link href='../assets/images/logo.png' rel='shortcut icon' type='image/png' />
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Fast Food</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <title>Đăng kí tài khoản</title>
 </head>
 
 <body>
@@ -26,8 +31,8 @@
         <header class="header">
             <div class="container">
                 <div class="header__logo">
-                    <a href="../index.html" class="header__logo-link">
-                        <img src="../assets/images/logo.png" alt="" class="header__logo-img">
+                    <a href="./index.html" class="header__logo-link">
+                        <img src="./assets/images/logo.png" alt="" class="header__logo-img">
                     </a>
                     <span class="header__logo-text"> </span>
                 </div>
@@ -65,11 +70,11 @@
         <nav class="navbar">
             <div class="container">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="../index.html" class="nav__item-link">trang chủ</a></li>
-                    <li class="nav__item"><a href="../gioi-thieu.html" class="nav__item-link">giới thiệu</a></li>
-                    <li class="nav__item"><a href="../san-pham.html" class="nav__item-link active">sản phẩm</a></li>
-                    <li class="nav__item"><a href="../tin-tuc.html" class="nav__item-link">tin tức</a></li>
-                    <li class="nav__item"><a href="../login.html" class="nav__item-link">tài khoản</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__item-link">trang chủ</a></li>
+                    <li class="nav__item"><a href="/gioi-thieu.html" class="nav__item-link">giới thiệu</a></li>
+                    <li class="nav__item"><a href="/san-pham.html" class="nav__item-link ">sản phẩm</a></li>
+                    <li class="nav__item"><a href="/tin-tuc.html" class="nav__item-link">tin tức</a></li>
+                    <li class="nav__item"><a href="/login.html" class="nav__item-link active">tài khoản</a></li>
                 </ul>
                 <div class="nav-icon">
                     <div class="nav__search">
@@ -82,7 +87,7 @@
                         </form>
                     </div>
                     <div class="nav__cart">
-                        <a href="..#" class="nav__cart-link">
+                        <a href="#" class="nav__cart-link">
                             <i class="fas fa-shopping-basket nav__cart-icon"></i>
                         </a>
                     </div>
@@ -91,127 +96,102 @@
         </nav>
 
         <div class="theme-background">
-            <div class="theme-title">PIZZA HẢI SẢN XÚC XÍCH</div>
+            <div class="overlay"></div>
+            <div class="theme-title">Tài Khoản</div>
         </div>
-        <div class="wrap__detail-product">
-            <div class="container">
-                <section class="frag">
+
+        <div class="main">
+            <section class="frag">
+                <div class="container">
                     <ul class="frag__container">
                         <li class="home">
-                            <a href="../index.html" class="frag__link"> Trang chủ</a>
-                            <span class="gach">/</span>
-                        </li>
-                        <li class="home">
-                            <a href="../san-pham.html" class="frag__link"> Sản Phẩm </a>
+                            <a href="/index.html" class="frag__link"> Trang chủ</a>
                             <span class="gach">/</span>
                         </li>
                         <li>
-                            <span>PIZZA HẢI SẢN XÚC XÍCH</span>
+                            <span>Tài Khoản</span>
                         </li>
                     </ul>
-                </section>
-                <div class="container">
-                    <div id='2' class="chi-tiet-sp">
-                        <div class="detail-product">
-                            <div class="detail-big">
-                                <img src="../assets/images/product3.jpg" alt="" class="detail-img">
-                            </div>
-                            <div class="detail-small">
-                                <img src="../assets/images/product3.jpg" alt="" class="detail-small-img">
-                                <img src="../assets/images/product3-1.jpg" alt="" class="detail-small-img">
-                            </div>
-                        </div>
-                        <div class="infor">
-                            <h1 class="infor-title">PIZZA HẢI SẢN XÚC XÍCH</h1>
-                            <div class="infor__price-box">
-                                <span class="price-product">234000đ</span>
-                                <span class="price-sale">267000đ</span>
-                            </div>
-                            <div class="price-summary">
-                                <span class="price-summary__title">mô tả ngắn:</span>
-                                <span class="price-summary__des">(Đang cập nhật)</span>
-                            </div>
-                            <form action="" class="price-form">
-                                <div class="price-number">Số lượng:</div>
-                                <div class="price-number-input">
-                                    <button type="button" class="price-number-btn btn1">-</button>
-                                    <input id="number-quality" type="text" maxlength="3" value="1"
-                                        class="price-number-quality">
-                                    <button type="button" class="price-number-btn btn2">+</button>
-                                </div>
-                            </form>
-                            <div class="price-buy">
-                                <button type="submit" class="price-buy-btn order"
-                                    >
-                                    <span class="price-buy-text">mua hàng</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu-tap">
-                        <div class="product-tap">
-                            <ul class="tab-list">
-                                <li class="tab-item active" data-target="#menu1">mô tả sản phẩm</li>
-                                <li class="tab-item" data-target="#menu2">tab tuỳ chỉnh</li>
-                                <li class="tab-item" data-target="#menu3">hướng dẫn mua hàng</li>
-                            </ul>
-                            <div id="menu1" class="tab-content active">
-                                <p class="tab-text">
-                                    Nguồn nguyên liệu tươi ngon được nhập chính ngạch hằng ngày đã qua kiểm định an toàn
-                                    thực phẩm nên khách hàng có thể
-                                    hoàn toàn yên tâm về độ tươi ngon của những chiếc bánh nơi đây.
+                </div>
+            </section>
+            <div class="container">
+                <div class="form-login">
+                    <form action="" class="form" id="form-1">
+                        <h3 class="heading">Đăng ký tài khoản</h3>
+                        <p class="desc">Vui lòng đăng ký vào form bên dưới ❤️</p>
 
-                                    Bột mỳ trắng mịn cùng với phương pháp nhào bột thủ công để làm nên những chiếc đế
-                                    bánh khi nướng thì nở xốp và giòn mà
-                                    không hề chai cứng. Một sự kết hợp hoàn hảo giữa đế bánh và nhân bánh, Chiếc bánh
-                                    bạn nhận được sẽ vẫn còn nóng hổi,
-                                    viền bánh hơi cháy cạnh rất thơm và giòn tan khi đưa vào miệng. Nhân bánh đặc sánh
-                                    phô mai với sốt cà chua đỏ tươi và
-                                    nhiều bột xen lẫn các lát thịt, hải sản tươi thơm ngon làm nên chiếc pizza hoàn hảo
-                                    và đúng phong vị nhất.
-                                </p>
-                                <p class="tab-text">
-                                    <img src="../assets/images/product3.jpg" alt="">
-                                </p>
-                                <p class="tab-text">
-                                    Thời gian nướng và nhiệt độ nướng bánh: Thời gian nướng rất quan trọng. Chiếc pizza
-                                    mang tới tận nhà cho khách cũng rất
-                                    nóng hổi chứ không hề nguội. Nếu pizza để nguội thì vị thực sự của nó sẽ biến mất.
-                                    Thời gian để nướng chiếc pizza rất
-                                    quan trọng. Nếu không căn được thời gian nướng thì chiếc bánh có thể bị cháy, hoặc
-                                    có thể đế bánh không thể giòn và cũng
-                                    có thể là đế bánh chín không đều. Vậy nên nền nhiệt và thời gian rất quan trọng để
-                                    quyết định cho ra một chiếc pizza đế
-                                    bánh giòn rụm khi đưa vào miệng và phần nhân bánh vẫn không bị cháy. Nhiệt độ nướng
-                                    tại cửa hàng pizza luôn đạt tại
-                                    250-350 độ C với thời gian 1-2 phút. Nếu tự làm ở nhà thì nướng mất khoảng 7-8 phút
-                                    trong nền nhiệt 250 độ C.
-                                </p>
-                                <p class="tab-text">
-                                    <img src="../assets/images/product3-1.jpg" alt="">
-                                </p>
-                                <p class="tab-text">
-                                    Vừa thơm ngon vừa bổ dưỡng, lại đẹp mắt và có vô vàn mùi vị để lựa chọn, vậy nên
-                                    không có lý do gì để du khách không
-                                    thưởng thức món mỳ Spaghetti nổi tiếng này khi đi du lịch Italia
-                                </p>
-                            </div>
-                            <div id="menu2" class="tab-content">
-                                <p class="tab-text">
-                                    Nội dung tùy chỉnh viết ở đây
-                                </p>
-                            </div>
-                            <div id="menu3" class="tab-content">
-                                <p class="tab-text">
-                                    Hướng dẫn mua hàng
-                                </p>
-                            </div>
+                        <div class="spacer"></div>
+
+                        <div class="form-group">
+                            <label for="fullname" class="form-label">Tên đầy đủ</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="VD: Phan Van Hieu"
+                                class="form-control">
+                            <span class="form-message"></span>
                         </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" type="text" placeholder="VD: email@gmail.com"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="form-label">Mật khẩu</label>
+                            <input id="password" name="password" type="password" placeholder="Nhập mật khẩu"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                            <input id="password_confirmation" name="password_confirmation"
+                                placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <button class="form-submit" onclick="success1()">Đăng ký</button>
+                        <span class="form-transfer" onclick="transfer()">Đăng nhập</span>
+                    </form>
+                    <form action="" class="form" id="form-2">
+                        <h3 class="heading">Đăng nhập</h3>
+                        <p class="desc">Vui lòng đăng nhập vào form bên dưới ❤️</p>
+
+                        <div class="spacer"></div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" type="text" placeholder="VD: email@gmail.com"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="form-label">Mật khẩu</label>
+                            <input id="password" name="password" type="password" placeholder="Nhập mật khẩu"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <button class="form-submit" onclick="success2()">Đăng nhập</button>
+                        <span class="form-transfer" onclick="transfer2()">Đăng ký</span>
+                    </form>
+                </div>
+
+                <div class="login-banner">
+                    <img src="./assets/images/login1.jpg" alt="" class="login-img">
+                    <div class="login-banner__text">
+                        <span>Đón mừng giáng sinh</span>
+                        <span>Ding ngay quà khủng</span>
                     </div>
+                    <div class="login-sale">
+                        <span>-50%</span>
+                    </div>
+                    <span class="login-border1"></span>
+                    <span class="login-border2"></span>
                 </div>
             </div>
         </div>
-
         <footer class="footer">
             <div class="container">
                 <div class="about-us">
@@ -361,20 +341,31 @@
         </footer>
 
     </div>
-
-
-    <!-- JS -->
+    <script src="./javascript/scroll-top.js"></script>
+    <script src="./javascript/validator.js"></script>
+    <!-- Typed -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="javascript/typed.js"></script>
+    <script>
 
-    <script src="../javascript/typed.js"></script>
+        const form1 = document.getElementById('form-1')
+        const form2 = document.getElementById('form-2')
+        function success1() {
+            alert('Đăng ký thành công')
+        }
+        function success2() {
+            alert('Đăng nhập thành công')
+        }
+        function transfer() {
+            form1.style.display = 'none'
+            form2.style.display = 'block'
+        }
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="../javascript/scroll-top.js"></script>
-
-
-    <!-- <script src="./javascript/giohang.js"></script> -->
-    <script src="../javascript/main.js"></script>
-
+        function transfer2() {
+            form1.style.display = 'block'
+            form2.style.display = 'none'
+        }
+    </script>
 
 </body>
 
