@@ -73,9 +73,6 @@ a {
     background-color: #fff;
     margin-bottom: 30px;
 }
-.frag .container {
-    display: flex;
-}
 .frag__container {
     flex: 1;
     font-size: 14px;
@@ -83,28 +80,22 @@ a {
     display: flex;
     border-bottom: #ebebeb 1px solid;
 }
-
 .home {
     display: flex;
 }
-
 .gach {
     margin: 0 12px;
 }
-
 .frag__link {
     color: inherit;
 }
-
 .frag__link:hover {
     color: var(--main-color);
     transition: 0.2s ease;
 }
-
 .frag__container li:last-child span {
     color: var(--main-color);
 }
-
 .theme-background {
     height: 260px;
     padding: 90px 0;
@@ -114,7 +105,6 @@ a {
     background-position: 0 50%;
     position: relative;
 }
-
 .theme-title {
     width: 100%;
     text-align: center;
